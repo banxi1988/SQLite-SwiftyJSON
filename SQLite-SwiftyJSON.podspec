@@ -20,20 +20,20 @@ Pod::Spec.new do |s|
     SQLite-SwiftyJSON is a SwiftyJSON Extension for SQLite.swift,add JSON Type Support for SQLite.swift
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SQLite-SwiftyJSON"
+  s.homepage         = "https://github.com/banxi1988/SQLite-SwiftyJSON"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SQLite-SwiftyJSON.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/banxi1988/SQLite-SwiftyJSON.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SQLite-SwiftyJSON' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+    #'SQLite-SwiftyJSON' => ['Pod/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
