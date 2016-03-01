@@ -1,0 +1,22 @@
+PODS:
+  - SQLite-SwiftyJSON (0.1.0):
+    - SQLite.swift (~> 0.9.2)
+    - SwiftyJSON (~> 2.3)
+  - SQLite.swift (0.9.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - SQLite-SwiftyJSON (from `../`)
+
+EXTERNAL SOURCES:
+  SQLite-SwiftyJSON:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SQLite-SwiftyJSON: 3614c9a241b5c2504439c579f802ab684a046686
+  SQLite.swift: 5dca22dbf6634fdb9c3270fae9491830804e9b2d
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 1ae2aed205c27d96cb812331a2d00f009a24efaa
+
+COCOAPODS: 1.0.0.beta.4
