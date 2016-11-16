@@ -1,6 +1,0 @@
-framework module SQLite_SwiftyJSON {
-  umbrella header "SQLite-SwiftyJSON-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -6,12 +6,12 @@ extension JSON: SQLite.Value{
     return String.declaredDatatype
   }
   
-  public static func fromDatatypeValue(stringValue: String) -> JSON {
+  public static func fromDatatypeValue(_ stringValue: String) -> JSON {
     return JSON.parse(stringValue)
   }
   
   public var datatypeValue: String {
-    return self.rawString(NSUTF8StringEncoding, options: [])!
+    return self.rawString(String.Encoding.utf8, options: [])!
   }
 }
 

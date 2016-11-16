@@ -17,7 +17,7 @@ SQLite-SwiftyJSON is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SQLite-SwiftyJSON"
+pod "SQLiteSwiftyJSON"
 ```
 
 ## Author

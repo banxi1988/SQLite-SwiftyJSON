@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SQLite-SwiftyJSON"
-  s.version          = "0.1.0"
+  s.name             = "SQLiteSwiftyJSON"
+  s.version          = "1.0.0"
   s.summary          = "SQLite-SwiftyJSON is a SwiftyJSON Extension for SQLite.swift"
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SQLite.swift', '~> 0.9.2'
-  s.dependency 'SwiftyJSON', '~> 2.3'
+  s.dependency 'SQLite.swift', '~> 0.11.0'
+  s.dependency 'SwiftyJSON', '~> 3.1.1'
 end
