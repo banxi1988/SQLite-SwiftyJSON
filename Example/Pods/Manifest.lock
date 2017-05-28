@@ -1,11 +1,11 @@
 PODS:
-  - SQLite.swift (0.11.0):
-    - SQLite.swift/standard (= 0.11.0)
-  - SQLite.swift/standard (0.11.0)
+  - SQLite.swift (0.11.3):
+    - SQLite.swift/standard (= 0.11.3)
+  - SQLite.swift/standard (0.11.3)
   - SQLiteSwiftyJSON (1.0.0):
-    - SQLite.swift (~> 0.11.0)
-    - SwiftyJSON (~> 3.1.1)
-  - SwiftyJSON (3.1.1)
+    - SQLite.swift (~> 0.11.3)
+    - SwiftyJSON (~> 3.1.4)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - SQLiteSwiftyJSON (from `../`)
@@ -15,10 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SQLite.swift: 9a26273607d3077a2e5a8d33486e9989f8404c7d
-  SQLiteSwiftyJSON: 64a8d410cbdbea0599dfdb00d10f1343de6fa50c
-  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  SQLite.swift: 99b36c22084427f0abbeb957556ce1528cf10bb3
+  SQLiteSwiftyJSON: 33ebe6c8f9d2a131a082d8b75a5308e576ffbb89
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 1d2a686b715ce6401c5b80e7df9935335b739382
+PODFILE CHECKSUM: d77989e4a46c753306d195bcb382027b597581ff
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.2.1

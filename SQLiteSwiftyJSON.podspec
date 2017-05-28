@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SQLiteSwiftyJSON"
-  s.version          = "1.0.0"
+  s.version          = "2.0.0"
   s.summary          = "SQLite-SwiftyJSON is a SwiftyJSON Extension for SQLite.swift"
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/banxi1988/SQLite-SwiftyJSON.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SQLite.swift', '~> 0.11.0'
-  s.dependency 'SwiftyJSON', '~> 3.1.1'
+  s.dependency 'SQLite.swift', '~> 0.11.3'
+  s.dependency 'SwiftyJSON', '~> 3.1.4'
 end
